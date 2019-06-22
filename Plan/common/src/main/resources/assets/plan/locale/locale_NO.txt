@@ -1,62 +1,62 @@
-Cmd - Click Me                                  || Click me
+Cmd - Click Me                                  || Klikk på meg
 Cmd - Link                                      ||   §2Link: §f
-Cmd Disable - Disabled                          || §aPlan systems are now disabled. You can still use /planbungee reload to restart the plugin.
-Cmd FAIL - Invalid Username                     || §cUser does not have an UUID.
-Cmd FAIL - No Feature                           || §eDefine a feature to disable! (currently supports ${0})
-Cmd FAIL - No Permission                        || §cYou do not have the required permission.
-Cmd FAIL - Require only one Argument            || §cSingle Argument required ${1}
-Cmd FAIL - Requires Arguments                   || §cArguments required (${0}) ${1}
-Cmd FAIL - Unknown Username                     || §cUser has not been seen on this server
-Cmd FAIL - WebUser does not exists              || §cUser does not exists!
-Cmd FAIL - WebUser exists                       || §cUser already exists!
-Cmd Header - Analysis                           || > §2Analysis Results
-Cmd Header - Info                               || > §2Player Analytics
-Cmd Header - Inspect                            || > §2Player: §f${0}
-Cmd Header - Network                            || > §2Network Page
-Cmd Header - Players                            || > §2Players
-Cmd Header - Search                             || > §2${0} Results for §f${1}§2:
-Cmd Header - Servers                            || > §2Servers
-Cmd Header - Web Users                          || > §2${0} Web Users
-Cmd Info - Bungee Connection                    ||   §2Connected to Bungee: §f${0}
-Cmd Info - Database                             ||   §2Active Database: §f${0}
-Cmd Info - Reload Complete                      || §aReload Complete
-Cmd Info - Reload Failed                        || §cSomething went wrong during reload of the plugin, a restart is recommended.
-Cmd Info - Update                               ||   §2Update Available: §f${0}
-Cmd Info - Version                              ||   §2Version: §f${0}
-Cmd Notify - No WebUser                         || You might not have a web user, use /plan register <password>
-Cmd Notify - WebUser register                   || Registered new user: '${0}' Perm level: ${1}
-Cmd Qinspect - Activity Index                   ||   §2Activity Index: §f${0} | ${1}
-Cmd Qinspect - Deaths                           ||   §2Deaths: §f${0}
-Cmd Qinspect - Geolocation                      ||   §2Logged in from: §f${0}
-Cmd Qinspect - Last Seen                        ||   §2Last Seen: §f${0}
-Cmd Qinspect - Longest Session                  ||   §2Longest Session: §f${0}
-Cmd Qinspect - Mob Kills                        ||   §2Mob Kills: §f${0}
-Cmd Qinspect - Player Kills                     ||   §2Player Kills: §f${0}
-Cmd Qinspect - Playtime                         ||   §2Playtime: §f${0}
-Cmd Qinspect - Registered                       ||   §2Registered: §f${0}
-Cmd Qinspect - Times Kicked                     ||   §2Times Kicked: §f${0}
-Cmd Setup - Allowed                             || §aSet-up is now Allowed
-Cmd Setup - Bad Request                         || §eConnection succeeded, but Receiving server was not a Bungee server. Use Bungee address instead.
-Cmd Setup - Disallowed                          || §cSet-up is now Forbidden
-Cmd Setup - Forbidden                           || §eConnection succeeded, but Bungee has set-up mode disabled - use '/planbungee setup' to enable it.
-Cmd Setup - Gateway Error                       || §eConnection succeeded, but Bungee failed to connect to this server (Did current web server restart?). Use /plan m con & /planbungee con to debug.
-Cmd Setup - Generic Fail                        || §eConnection failed: ${0}
-Cmd Setup - Internal Error                      || §eConnection succeeded. ${0}, check possible ErrorLog on receiving server's debug page.
-Cmd Setup - Success                             || §aConnection successful, Plan may restart in a few seconds..
-Cmd Setup - Unauthorized                        || §eConnection succeeded, but Receiving server didn't authorize this server. Contact Discord for support
-Cmd Setup - Url mistake                         || §cMake sure you're using the full address (Starts with http:// or https://) - Check Bungee enable log for the full address.
-Cmd Setup - WebServer not Enabled               || §cWebServer is not enabled on this server! Make sure it enables on boot!
-Cmd SUCCESS - Feature disabled                  || §aDisabled '${0}' temporarily until next plugin reload.
-Cmd SUCCESS - WebUser register                  || §aAdded a new user (${0}) successfully! You can view the web panel in the following link.
-Cmd Update - Cancel Success                     || §aCancel operation performed.
-Cmd Update - Cancelled                          || §cUpdate cancelled.
+Cmd Disable - Disabled                          || §aPlan systemer er nå deaktivert. Du kan fortsatt bruke /planbungee reload for å restarte pluginen
+Cmd FAIL - Invalid Username                     || §cBrukeren har ikke en UUID.
+Cmd FAIL - No Feature                           || §eDefiner en funksjon for å deaktivere! (currently supports ${0})
+Cmd FAIL - No Permission                        || §cDu har ikke den nødvendige tillatelsen.
+Cmd FAIL - Require only one Argument            || §cEnkelt argument påkrevd ${1}
+Cmd FAIL - Requires Arguments                   || §cArgument påkrevd (${0}) ${1}
+Cmd FAIL - Unknown Username                     || §cBrukeren har ikke vært på denne serveren
+Cmd FAIL - WebUser does not exists              || §cBrukeren fines ikke!
+Cmd FAIL - WebUser exists                       || §cBrukeren finnes allerede!
+Cmd Header - Analysis                           || > §2Analyserer resultat
+Cmd Header - Info                               || > §2Spiller analyse
+Cmd Header - Inspect                            || > §Spiller: §f${0}
+Cmd Header - Network                            || > §2Netverks side
+Cmd Header - Players                            || > §2Spillere
+Cmd Header - Search                             || > §2${0} Resultat for §f${1}§2:
+Cmd Header - Servers                            || > §2Servere
+Cmd Header - Web Users                          || > §2${0} Web brukere
+Cmd Info - Bungee Connection                    ||   §2Tilkoblet til Bungee: §f${0}
+Cmd Info - Database                             ||   §2Aktive database: §f${0}
+Cmd Info - Reload Complete                      || §aOppdatering fullført
+Cmd Info - Reload Failed                        || §cNoe gikk galt når du relastet pluginen, anbefaler en restart.
+Cmd Info - Update                               ||   §2Oppdatering tilgjenelig: §f${0}
+Cmd Info - Version                              ||   §2Versjon: §f${0}
+Cmd Notify - No WebUser                         || Du har antageligvis ikke en web bruker, bruk /plan register <password>
+Cmd Notify - WebUser register                   || Registrerte ny bruker: '${0}' Tillatlese nivå: ${1}
+Cmd Qinspect - Activity Index                   ||   §2Aktivitetsindeks: §f${0} | ${1}
+Cmd Qinspect - Deaths                           ||   §Dødsfall: §f${0}
+Cmd Qinspect - Geolocation                      ||   §2Logget inn fra: §f${0}
+Cmd Qinspect - Last Seen                        ||   §2Sist sett: §f${0}
+Cmd Qinspect - Longest Session                  ||   §2Lengste sesjon: §f${0}
+Cmd Qinspect - Mob Kills                        ||   §2Mob drap: §f${0}
+Cmd Qinspect - Player Kills                     ||   §2Spiller drap: §f${0}
+Cmd Qinspect - Playtime                         ||   §2Spilletid: §f${0}
+Cmd Qinspect - Registered                       ||   §2Registrert: §f${0}
+Cmd Qinspect - Times Kicked                     ||   §2Sparket antall: §f${0}
+Cmd Setup - Allowed                             || §aSet-up er nå tilatt
+Cmd Setup - Bad Request                         || §eTilkobling vellyket, men mottaksserveren var ikke en Bungee-server. Bruk Bungee adressen istedenfor.
+Cmd Setup - Disallowed                          || §cSet-up er nå ikke tilatt
+Cmd Setup - Forbidden                           || §eTilkobling vellyket, men Bungee har set-up modus deaktivert - bruk '/planbungee setup' for å aktivere.
+Cmd Setup - Gateway Error                       || §eTilkobling vellyket, men Bungee mislyktes til å koble til denne serveren (Ble den valgte web-serveren restartet?). Bruk /plan m con & /planbungee con for å feilsøke.
+Cmd Setup - Generic Fail                        || §eTilkobling mislyktes: ${0}
+Cmd Setup - Internal Error                      || §eTilkobling vellyket. ${0}, sjekk eventuelt ErrorLog på mottaker serverens feilsøkingsside.
+Cmd Setup - Success                             || §aTilkobling vellyket, Plan restarter kanskje om noen sekunder....
+Cmd Setup - Unauthorized                        || §eTilkobling vellyket, men mottaker serveren godkjente ikke denne serveren. Kontakt Discord for support
+Cmd Setup - Url mistake                         || §cVær sikker på at du bruker hele adressen (Starter med http:// or https://) - Sjekk Bungee enable for fullsteding adresse
+Cmd Setup - WebServer not Enabled               || §cWebServer er ikke aktivert på denne serveren! Vær sikker på at den starter under oppstart!
+Cmd SUCCESS - Feature disabled                  || §aDeaktivert '${0}' midlertidig intill neste plugin relasting.
+Cmd SUCCESS - WebUser register                  || §aNy bruker ble lagt til (${0}) velykket! Du kan se på web paneler med følgende link.
+Cmd Update - Cancel Success                     || §aAvbryt operasjonen som utføres.
+Cmd Update - Cancelled                          || §cOppdatering kansellert.
 Cmd Update - Change log                         || Change Log v${0}:
-Cmd Update - Fail Cacnel                        || §cUpdate failed on a server, cancelling update on all servers..
-Cmd Update - Fail Force Notify                  || §e${0} failed to update, -force specified, continuing update.
-Cmd Update - Fail Not Online                    || §cNot all servers were online or accessible, you can still update available servers using /plan update -u -force
-Cmd Update - Notify Cancel                      || §aYou can cancel the update on servers that haven't rebooted yet with /plan update cancel.
-Cmd Update - Online Check                       || Checking that all servers are online..
-Cmd Update - Scheduled                          || §a${0} scheduled for update.
+Cmd Update - Fail Cacnel                        || §cOppdatering mislyktes på serveren, kansellere oppdateringer på alle servere
+Cmd Update - Fail Force Notify                  || §e${0} Oppdatering mislyktes, -force specified, fortsette oppdateringen.
+Cmd Update - Fail Not Online                    || §cIkke alle servere var online eller tilgjengelig, du kan fortsatt oppdatere tilgjengelige servere. Bruk /plan update -u -force
+Cmd Update - Notify Cancel                      || §aDu kan kansellere oppdateringen på servere som ikke har restartet enda, med /plan update cancel.
+Cmd Update - Online Check                       || Sjekker om alle serveren er online
+Cmd Update - Scheduled                          || §a${0} planlagt for oppdatering
 Cmd Update - Url mismatch                       || §cVersion download url did not start with ${0} and might not be trusted. You can download this version manually here (Direct download):
 Cmd Web - Permission Levels                     || >\§70: Access all pages\§71: Access '/players' and all player pages\§72: Access player page with the same username as the webuser\§73+: No permissions
 Command Help - /plan analyze                    || View the Server Page
